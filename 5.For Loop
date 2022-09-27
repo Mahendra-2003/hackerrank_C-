@@ -1,7 +1,23 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem?isFullScreen=true
+
+Sample Input
+------------
+8
+11
+
+Sample Output
+-------------
+eight
+nine
+even
+odd
+
+PROGRAM
+-------
 #include <iostream>
-
 using namespace std;
-
 int main() {
     int a,b,i;
     cin>>a>>b;
