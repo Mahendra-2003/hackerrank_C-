@@ -1,6 +1,19 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else/problem?isFullScreen=true
+
+Sample Input
+------------
+8
+
+Sample Output
+-------------
+eight
+
+PROGRAM
+-------
 #include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
     int n;
