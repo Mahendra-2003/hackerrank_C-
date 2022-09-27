@@ -1,0 +1,29 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/c-tutorial-pointer/problem?isFullScreen=true
+
+Sample Input
+------------
+4
+5
+
+Sample Output
+-------------
+9
+1
+
+PROGRAM
+-------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cin>>a>>b;
+    cout<<a+b<<endl;
+    if(a>b)
+    cout<<a-b<<endl;
+    else
+    cout<<b-a<<endl;
+    return 0;
+}
