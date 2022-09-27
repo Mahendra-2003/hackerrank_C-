@@ -1,3 +1,13 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/cpp-hello-world/problem?isFullScreen=true
+
+Sample Output
+-------------
+Hello, World!
+
+PROGRAM
+-------
 #include <iostream>
 using namespace std;
 
