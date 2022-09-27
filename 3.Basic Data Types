@@ -1,7 +1,24 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem?isFullScreen=true
+
+Sample Input
+------------
+3 12345678912345 a 334.23 14049.30493
+
+Sample Output
+-------------
+3
+12345678912345
+a
+334.230
+14049.304930000
+
+PROGRAM
+-------
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
 int main() {
 int a;
 long b;
@@ -14,6 +31,5 @@ cout<<b<<endl;
 cout<<c<<endl;
 cout<<setprecision(3)<<fixed<<d<<endl;
 cout<<setprecision(9)<<fixed<<e<<endl;
-
-    return 0;
+   return 0;
 }
