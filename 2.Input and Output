@@ -1,11 +1,19 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/cpp-input-and-output/problem?isFullScreen=true
+
+Sample Input
+------------
+1 2 7
+
+Sample Output
+-------------
+10
+
+PROGRAM
+-------
 #include <iostream>
-#include <algorithm>
 using namespace std;
-
-
 int main() {
 int a,b,c,sum=0;
 cin>>a>>b>>c;
