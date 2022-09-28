@@ -1,0 +1,26 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/arrays-introduction/problem?isFullScreen=true
+
+Sample Input
+------------
+4
+1 4 3 2
+
+Sample Output
+-------------
+2 3 4 1
+
+PROGRAM
+-------
+#include <iostream>
+using namespace std;
+int main() {
+    int i,a[1000],n;
+    cin>>n;
+    for(i=0;i<n;i++)
+    cin>>a[i];
+    for(i=n-1;i>=0;i--)
+    cout<<a[i]<<" ";
+    return 0;
+}
