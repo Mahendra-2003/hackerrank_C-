@@ -1,0 +1,36 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/c-tutorial-strings/problem?isFullScreen=true
+
+Sample Input
+------------
+abcd
+ef
+
+Sample Output
+-------------
+4 2
+abcdef
+ebcd af
+
+PROGRAM
+-------
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    string a,b,c;
+    int l1,l2;
+    cin>>a>>b;
+    c=a+b;
+    l1=a.size();
+    l2=b.size();
+    cout<<l1<<" "<<l2<<endl;
+    cout<<c<<endl;
+    c[0]=b[0];
+    c[1]=a[0];
+    a[0]=c[0];
+    b[0]=c[1];
+    cout<<a<<" "<<b<<endl;
+    return 0;
+}
