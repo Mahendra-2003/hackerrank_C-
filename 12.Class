@@ -1,0 +1,47 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/c-tutorial-class/problem?isFullScreen=true
+
+Sample Input
+------------
+15
+john
+carmack
+10
+
+Sample Output
+-------------
+15
+carmack, john
+10
+
+15,john,carmack,10
+
+PROGRAM
+-------
+#include <iostream>
+#include <sstream>
+using namespace std;
+
+class Student{
+    public:
+    int age,standard;
+    string first_name,last_name;
+    void input(){
+        cin>>age>>first_name>>last_name>>standard;
+    }
+    void output(){
+        cout<<age<<endl;
+        cout<<last_name<<", "<<first_name<<endl;
+        cout<<standard<<endl;
+        cout<<endl;
+        cout<<age<<","<<first_name<<","<<last_name<<","<<standard;
+    }};
+
+int main() {
+    Student st;
+    st.input();
+    st.output();
+    
+    return 0;
+}
