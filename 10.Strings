@@ -13,7 +13,6 @@ Sample Output
 abcdef
 ebcd af
 
-
 PROGRAM
 -------
 #include <iostream>
