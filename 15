@@ -1,0 +1,42 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/rectangle-area/problem?isFullScreen=true
+
+Sample Input
+------------
+10 5
+
+Sample Output
+-------------
+10 5
+50
+
+PROGRAM
+-------
+#include <iostream>
+
+using namespace std;
+class Rectangle{
+    public :
+    int a,b;
+    void read_input(){
+        cin>>a>>b;}
+    void display(){
+        cout<<a<<" "<<b<<endl;
+    }
+};
+class RectangleArea : public Rectangle{
+    public :
+    void display(){
+        cout<<a*b<<endl;
+    }
+};
+
+int main()
+{   RectangleArea r_area;
+    r_area.read_input();
+    r_area.Rectangle::display();
+    r_area.display();
+    
+    return 0;
+}
